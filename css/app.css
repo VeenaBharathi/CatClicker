@@ -2,3 +2,16 @@
 	width:70%;
 	margin: auto;
 }
+
+.cats{
+	flex: display
+	flex-wrap:wrap;
+}
+
+.kit{
+	width:50%;
+}
+
+.cheu{
+	width:50%;
+}
