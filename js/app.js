@@ -4,6 +4,7 @@ var kit = $('.kit');
 var cheu = $('.cheu');
 var i=0,j =0;
 
+
 // setting act names
 $('.name1').html("<strong>KIT</strong>");
 $('.name2').html("<strong>CHEW</strong>");
