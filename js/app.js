@@ -7,7 +7,7 @@ var i=0,j =0;
 
 
 var cats = { name: "meou", 
-src: "http://www.petwebsite.co.uk/media/k2/items/cache/0548677e6432786dd8df61eb3aaec139_L.jpg"
+ref: "http://www.petwebsite.co.uk/media/k2/items/cache/0548677e6432786dd8df61eb3aaec139_L.jpg"
 } ;
 
 // setting act names
@@ -36,7 +36,11 @@ $('.cat').append(namediv);
 
 var catimg = document.createElement("img");
 catimg.classList.add(cats.name);
-console.log(catimg);
+// $('\'.'+cats.name+'\'').src(cats.ref);
+// $('.meow').attr('src',"\"" + cats.ref + "\"");
+$('.meow').attr('alt','meow');
+$('.meow').src = "\"" + cats.ref + "\"";
+console.log($('.meow'));
 $('.cat').append(catimg);
 
 
