@@ -5,18 +5,19 @@
 
 .cats{
 	margin:10%;
-	display: flex;
-	flex-wrap:wrap;
-	border: 1px solid red;
 	padding-right:0px;
+	width: 50%;
+	height:50%;
 }
 
 .kit{
-	width:50%;
-	height:15rem;
+	max-width:100%;
+	max-height:100%;
+	object-fit: contain;
+
 }
 
 .cheu{
-	width:50%;
-	height:15rem;
+	max-width:100%;
+	max-height:100%;
 }
