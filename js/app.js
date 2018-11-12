@@ -6,18 +6,6 @@ var catObj = [
 {name: "charl", ref: "https://assets.rbl.ms/14419411/980x.jpg"}
 ];
 
-/*for (var cat in catObj){
-
-$('.name').click(function(catcopy){
-	function(){
-			$('.name').text(cat.name);
-			$('.cat').text(cat.ref);
-	}
-
-})(cat);*/
-
-
-
 var i=0;
 $('.thumbnail').click(function(){
 
@@ -35,9 +23,8 @@ $('.thumbnail').click(function(){
 	}
 });
 
-	
 
-		$('.cat').click((function(){
+$('.cat').click((function(){
 
 			console.log("in lsitsner for cat");
 			return function(){
@@ -52,11 +39,3 @@ $('.thumbnail').click(function(){
 			}
 
 		})());
-
-
-
-
-
-
-
-
