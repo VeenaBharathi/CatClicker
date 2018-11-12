@@ -1,7 +1,8 @@
 var count = $('#count');
 var img = $('.pic');
+var i =0;
 
-img.addEventListener('click', function(){
-
-	count.textContent += 1;
+img.click( function(){
+	i += 1;
+	count.html(i);
 });
