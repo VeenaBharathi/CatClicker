@@ -1,8 +1,14 @@
 var count = $('#count');
-var img = $('.pic');
+var kit = $('.kit');
+var cheu = $('.cheu');
 var i =0;
 
-img.click( function(){
+kit.click( function(){
+	i += 1;
+	count.html(i);
+});
+
+cheu.click( function(){
 	i += 1;
 	count.html(i);
 });
